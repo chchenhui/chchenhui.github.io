@@ -1,2 +1,2 @@
 # chchenhui.github.io
-My personal website
+My homepage
