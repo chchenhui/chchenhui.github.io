@@ -8,6 +8,7 @@ designation:
 arxiv: https://arxiv.org/abs/2209.05040
 code: https://github.com/declare-lab/SANCL
 slides: https://drive.google.com/file/d/1YRLjjMCFlzFYJp51fnp-qyYyTJUr7o9p/view?usp=share_link
+poster: https://drive.google.com/file/d/111JRx-omolmEI1GGy7lT9mKDrWDWuBuZ/view?usp=share_link
 image:
 categories: research
 ---
