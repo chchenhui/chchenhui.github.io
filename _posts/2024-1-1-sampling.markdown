@@ -6,7 +6,7 @@ authors: Wei Han, Hui Chen, Min-Yen Kan, Soujanya Poria
 venue: NAACL,2024 (Findings)
 designation: 
 arxiv: https://arxiv.org/abs/2307.04192
-code: [https://github.com/chchenhui/mlrbench](https://github.com/declare-lab/Sealing)
+code: https://github.com/declare-lab/Sealing
 image:
 categories: research
 ---
