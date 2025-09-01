@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Domain-Expanded ASTE: Rethinking Generalization in Aspect Sentiment Triplet Extraction"
+year: 2024
+authors: Yew Ken Chia, Hui Chen, Guizhen Chen, Wei Han, Sharifah Mahani Aljunied, Soujanya Poria, Lidong Bing
+venue: Second Workshop on Social Influence in Conversations, EMNLP
+arxiv: https://arxiv.org/abs/2305.14434
+code: 
+designation: 
+image:
+categories: research
+---
