@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MM-Align: Learning Optimal Transport-based Alignment Dynamics for Fast and Accurate Inference on Missing Modality Sequences
+title: "MM-Align: Learning Optimal Transport-based Alignment Dynamics for Fast and Accurate Inference on Missing Modality Sequences"
 year: 2022
 authors: Wei Han, Hui Chen, Soujanya Poria
 venue: EMNLP
