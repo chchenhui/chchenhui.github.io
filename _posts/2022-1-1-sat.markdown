@@ -1,0 +1,12 @@
+---
+layout: post
+title: "SAT: Improving Semi-Supervised Text Classification with Simple Instance-Adaptive Self-Training"
+year: 2022
+authors: Hui Chen, Wei Han, Soujanya Poria
+venue: EMNLP,2022(Findings)
+designation: 
+arxiv: https://arxiv.org/abs/2210.12653
+code: https://github.com/declare-lab/SAT
+image:
+categories: research
+---
