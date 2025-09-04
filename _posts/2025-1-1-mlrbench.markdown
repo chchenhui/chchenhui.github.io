@@ -7,6 +7,7 @@ venue: Preprint
 designation: 
 arxiv: https://arxiv.org/abs/2505.19955
 code: https://github.com/chchenhui/mlrbench
+slides: https://docs.google.com/presentation/d/1JPRi7z4vt_pPBqqpKtSyRtGzdmFgccEyuRkrJP9D55A/edit?usp=sharing
 image:
 categories: research
 ---
