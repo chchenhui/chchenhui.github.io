@@ -1,8 +1,0 @@
----
-layout: post
-title: "Title 1"
-categories: blog
----
-
-This is the content of the first blog post.
-
