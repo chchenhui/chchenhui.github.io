@@ -1,0 +1,87 @@
+---
+layout: default
+title: Blog
+---
+
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <title>Hui Chen's Blog</title>
+
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <meta name="author" content="Hui Chen" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        
+        <!-- Header -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h1 style="text-align:center">Blog</h1>
+              <p style="text-align:center">
+                <a href="../index.html">Home</a> &nbsp;/&nbsp;
+                <a target="_blank" href="mailto:chchenhui233@gmail.com">Email</a> &nbsp;/&nbsp;
+                <a href="https://drive.google.com/file/d/1qGe4cGamsVklatALqzsJI1oGj54pLFJ2/view?usp=share_link">Resume</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com.sg/citations?user=XObq9OQAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://github.com/chchenhui">GitHub</a> &nbsp;/&nbsp;
+                <a href="https://x.com/chchenhui">X</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+
+        <!-- Blog Posts List -->
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;width:100%;vertical-align:middle">
+              <h2>Blog Index</h2>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:2.5%;padding-top:0;width:100%;vertical-align:middle">
+              <ul style="list-style-type:none;padding-left:0">
+                {% for post in site.posts %}
+                {% if post.categories contains 'blog' %}
+                <li style="margin-bottom:1em">
+                  <a href="{{ post.url }}" style="font-size:1.1em">{{ post.title }}</a>
+                  <span style="color:#888;margin-left:1em">{{ post.date | date: "%Y-%m-%d" }}</span>
+                </li>
+                {% endif %}
+                {% endfor %}
+              </ul>
+            </td>
+          </tr>
+        </table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a> and <a style="font-size:small;" href="https://github.com/leonidk/new_website">Leonid Keselman's fork</a>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
+
