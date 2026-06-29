@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "DoubleMix: Simple Interpolation-Based Data Augmentation for Text Classification"
-year: 2022
+year: 
 authors: Hui Chen, Wei Han, Diyi Yang, Soujanya Poria
-venue: COLING
+venue: COLING 2022
 designation: 
 arxiv: https://arxiv.org/abs/2209.05297
 code: https://github.com/declare-lab/DoubleMix
