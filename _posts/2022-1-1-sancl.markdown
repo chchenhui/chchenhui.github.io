@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "SANCL: Multimodal Review Helpfulness Prediction with Selective Attention and Natural Contrastive Learning"
-year: 2022
+year: 
 authors: Wei Han, Hui Chen, Zhen Hai, Soujanya Poria, Lidong Bing
-venue: COLING
+venue: COLING 2022
 designation: 
 arxiv: https://arxiv.org/abs/2209.05040
 code: https://github.com/declare-lab/SANCL
