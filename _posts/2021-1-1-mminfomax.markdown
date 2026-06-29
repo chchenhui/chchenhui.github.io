@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis"
-year: 2021
+year: 
 authors: Wei Han, Hui Chen, Soujanya Poria
-venue: EMNLP
+venue: EMNLP 2021
 designation: 
 arxiv: https://arxiv.org/abs/2109.00412
 code: https://github.com/declare-lab/Multimodal-Infomax
