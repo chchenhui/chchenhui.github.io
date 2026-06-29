@@ -78,7 +78,7 @@
               {{post.authors | replace: "Hui Chen", "<strong>Hui Chen</strong>"}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.year }} {% if post.designation %} ({{post.designation}}) {% endif %}
+              <em>{{post.venue}}</em> {{ post.year }} {% if post.designation %} ({{post.designation}}) {% endif %}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">paper</a>
