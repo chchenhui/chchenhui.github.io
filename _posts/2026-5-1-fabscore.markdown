@@ -7,6 +7,7 @@ venue: ICML 2026 AI4Science Workshop
 designation: Spotlight
 arxiv: /papers/FabScore.pdf
 code: https://github.com/chchenhui/fabscore
+slides: https://docs.google.com/presentation/d/1c6GroGeLjzeYos1pC49pSRvfH8e-9fMMgrq5MszXcnY/edit?usp=sharing
 image:
 categories: research
 ---
