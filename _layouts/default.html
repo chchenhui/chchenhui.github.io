@@ -13,6 +13,46 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
+  <style>
+    .intro-copy {
+      padding: 2.5%;
+      width: 70%;
+      vertical-align: middle;
+    }
+
+    .intro-copy h1 {
+      text-align: center;
+    }
+
+    .intro-photo {
+      padding: 2.5%;
+      width: 30%;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    .intro-photo img {
+      display: block;
+      width: 100%;
+      max-width: 220px;
+      margin: 0 auto;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .intro-copy,
+      .intro-photo {
+        display: block;
+        box-sizing: border-box;
+        width: 100%;
+      }
+
+      .intro-photo img {
+        max-width: 240px;
+      }
+    }
+  </style>
+
 </head>
 
 <body>
@@ -21,7 +61,7 @@
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
+            <td class="intro-copy">
               <h1>
                 Hui Chen
               </h1>
@@ -47,8 +87,8 @@
                 <a href="https://www.linkedin.com/in/hui-chen-a3aa80137">Linkedin</a>
               </p>
             </td>
-            <td style="padding:2.5%;padding-top:5%;width:33%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/photo.png">
+            <td class="intro-photo">
+              <img alt="profile photo" src="images/photo.png">
             </td>
           </tr>
         </table>
