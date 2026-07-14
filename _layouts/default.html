@@ -119,6 +119,7 @@
 
               <br>
               <em>{{post.venue}}</em> {{ post.year }} {% if post.designation %} ({{post.designation}}) {% endif %}
+              {% if post.venue2 %}<br><em>{{post.venue2}}</em> {{ post.year2 }} {% if post.designation2 %} ({{post.designation2}}) {% endif %}{% endif %}
               <br>
               {% if post.arxiv %}
               <a href="{{post.arxiv}}">paper</a>
